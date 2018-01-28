@@ -1,9 +1,11 @@
 {
   "name": "blackcreek-assignment-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Blackcreek Digital Take-Home Assignment",
   "main": "server.js",
   "scripts": {
+    "start": "node app/server.js",
+    "dev-start": "./node_modules/.bin/nodemon app/server.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/mohammadfarooqi/blackcreek-assignment-server/issues"
   },
-  "homepage": "https://github.com/mohammadfarooqi/blackcreek-assignment-server#readme"
+  "homepage": "https://github.com/mohammadfarooqi/blackcreek-assignment-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "name": "blackcreek-assignment-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadfarooqi/blackcreek-assignment-server.git"
+  },
+  "author": "Mohammad Farooqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadfarooqi/blackcreek-assignment-server/issues"
+  },
+  "homepage": "https://github.com/mohammadfarooqi/blackcreek-assignment-server#readme"
+}
